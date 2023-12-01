@@ -12,7 +12,7 @@
   "main": "dist/VitePlugin.js",
   "typings": "dist/VitePlugin.d.ts",
   "scripts": {
-    "prepack": "npx tsc",
+    "prepare": "npx tsc",
     "test": "xvfb-maybe mocha --config ../../../.mocharc.js test/**/*_spec.ts"
   },
   "devDependencies": {
